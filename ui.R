@@ -7,7 +7,8 @@ shinyUI(
         # Text
         br(),
         h4("Please use this Score Checker to compare CLEFT-Q CAT scores to median scores
-     from the CLEFT-Q field test (Klassen", em("et al.,"), "2018)."),
+     from the CLEFT-Q field test (Klassen", em("et al.,"), "2018). The intended use of the Score Checker is to
+     aid in the visualisation and interpretation of this dataset. It is not a registered medical device and should not be used to influence treatment decisions."),
         fluidRow(
           plotOutput(outputId = "RadarPlot") %>% withSpinner(color = "darkmagenta")
         ),
@@ -152,7 +153,8 @@ shinyUI(
         # Text
         br(),
         h4("Please use this Score Checker to compare a CLEFT-Q CAT score to scores
-     obtained in the CLEFT-Q field test (Klassen", em("et al.,"), "2018)."),
+     obtained in the CLEFT-Q field test (Klassen", em("et al.,"), "2018). The intended use of the Score Checker is to
+     aid in the visualisation and interpretation of this dataset. It is not a registered medical device and should not be used to influence treatment decisions."),
         br(),
         br(),
 
